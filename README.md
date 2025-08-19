@@ -16,18 +16,19 @@ To write a python program to find the inverse of a matrix
 #RegisterNumber: 212224240179
 
 import numpy as np
+A = np.array([[1, 0, 3],
+              [-1, 2, -2],
+              [2, 3, -1]])
 
-matrix = np.array([[2, 1, 1], 
-                   [1, 1, 1], 
-                   [1, -1, 2]])
+A_inv = np.linalg.inv(A)
 
+print(A_inv)
 
-inverse_matrix = np.linalg.inv(matrix)
-print(inverse_matrix)
 ```
 ## Output:
 
-<img width="1407" height="241" alt="478872349-e421c375-c99f-44b4-b5aa-60baa6242352" src="https://github.com/user-attachments/assets/89da3fae-7a2e-44d2-8567-50f47c0fa97c" />
+<img width="1026" height="251" alt="image" src="https://github.com/user-attachments/assets/e65b3136-afe1-4b4a-ad02-d523ac3d5250" />
+
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
